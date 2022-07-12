@@ -3,10 +3,10 @@ This was my second project in the Udacity Data Analytics Nano Degree program spo
 Data Gathering
 To start, the three sets of data were appropriately gathered and read to data frames. Data set one being already in a csv format was read directly using pd.read_csv command. To read dataset 2, the request command was used to assess the given url, a response created from the url and after which the content was written to a file named image_prediction and finally the third dataset was extracted line by line from the tweet_json.txt file into a pandas DatatFrame with tweet_id, retweet_count and favorite_count as it's columns.
 
-Assessing
-All three datasets were assessed programmatically and visually in jupyter notebook and further using Microsoft Excel. To assess programmatically, functions such as df.info(), df.describe() and df.isnull() among others were used. The assessment revealed some cleanliness issues with the three(3) datasets. These included eight quality issues and four(4) tidyness issues. These are outline below:
+__Assessing__
+All three datasets were assessed programmatically and visually in jupyter notebook and further using Microsoft Excel. To assess programmatically, functions such as df.info(), ```df.describe()``` and df.isnull() among others were used. The assessment revealed some cleanliness issues with the three(3) datasets. These included eight quality issues and four(4) tidyness issues. These are outline below:
 
-Quality issues
+__Quality issues__
 Retweeted entries in dataset (ids in retweeted_status_id, retweeted_status_user_id, retweeted_status_timestamp) in twitter_archive dataframe
 
 Null values in in_reply_to_status_id, in_reply_to_user_id, retweeted_status_id, retweeted_status_user_id, retweeted_status_timestamp, and expanded urls columns in twitter_archive datafreame.
